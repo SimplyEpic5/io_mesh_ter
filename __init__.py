@@ -1,18 +1,4 @@
 bl_info = {
-    "name": "Torque DTS format",
-    "author": "port & bansheerubber & irrelevant.irreverent & Eagle517",
-    "version": (0, 3, 6),
-    "blender": (2, 81, 0),
-    "location": "File > Import-Export",
-    "description": "Import-Export DTS, Import DTS mesh, UV's, "
-                   "materials and textures",
-    "warning": "",
-    "support": 'COMMUNITY',
-    "category": "Import-Export"}
-
-
-
-bl_info = {
     "name": "Torque Terrain (TER) format",
     "author": "port",
     "version": (0, 0, 2),
@@ -21,8 +7,7 @@ bl_info = {
     "description": "Import Torque Terrain (TER) files",
     "warning": "",
     "support": "COMMUNITY",
-    "category": "Import-Export"
-}
+    "category": "Import-Export"}
 
 if "bpy" in locals():
     import importlib
